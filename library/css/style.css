@@ -493,7 +493,7 @@ margin-bottom: 2px;
   .footer {
     text-align: left;
   }
-  #menu-item-446 a {
+  #menu-item-446 a, #menu-item-516 a {
   float: right;
   color: #f1f1f1;
   color: rgba(255,255,255,0.8);
@@ -513,7 +513,7 @@ margin-bottom: 2px;
   transition: all 0.3s ease-in-out;
   margin: 14px 12px;
   }
-  #menu-item-446 a:hover, .page-template-template-updates #menu-item-446 a {
+  #menu-item-446 a:hover, .page-template-template-updates #menu-item-446 a, #menu-item-516 a:hover, .page-template-template-updates #menu-item-516 a {
   color: #FFB81C;
   color: rgba(255,184,28,1);
   background-color: #fff;
