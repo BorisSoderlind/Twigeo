@@ -1,0 +1,1232 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"the",
+				"the_field"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"margin-o",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"p",
+				"php	<?php … ?>"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"image",
+				"image_id"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"table-c",
+				"table-column"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"t",
+				"table-row"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"tabl",
+				"table"
+			],
+			[
+				"table-",
+				"table-column"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"wp",
+				"wpackagist-plugin"
+			],
+			[
+				"twitter",
+				"twitter_id"
+			],
+			[
+				"col-md-",
+				"col-md-offset-1"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"citat",
+				"citat-bild"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"Ave",
+				"AvenirNext-Medium"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"bac",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "template-startpage.php",
+			"settings":
+			{
+				"buffer_size": 10909,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 9465,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1896,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 876,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ",
+				"Package Control: Install Package"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/Bones",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/Bones/library",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/Bones/library/css"
+	],
+	"file_history":
+	[
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/Bones/header.php",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/Bones/library/css/editor-style.css",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/Bones/footer.php",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/Bones/style.css",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/twigeo/lib/custom_post_types.php",
+		"/Users/Boris/Desktop/main.css",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/twigeo/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/twigeo/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss",
+		"/Users/Boris/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/twigeo/lib/titles.php",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/twigeo/templates/header.php",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/twigeo/style.css",
+		"/Users/Boris/Sites/wordpress-test/vagrant-local/www/wordpress-default/wp-content/themes/twigeo/template-custom.php",
+		"/Users/Boris/Sites/wordpress.test/wp-config.php",
+		"/Users/Boris/Downloads/vanessa_v1.0/dist copy/css/style.css",
+		"/Users/Boris/Desktop/elegance frontpage.php",
+		"/private/var/folders/0b/fv0rzgx50dd_2ykh996r97lw0000gn/T/ebd1d472-bb63-4695-8ce0-6d357f5c1a9b/thepotentialfactory.com/public_html/wp-content/themes/mauer-storyteller/page.php",
+		"/private/var/folders/0b/fv0rzgx50dd_2ykh996r97lw0000gn/T/ebd1d472-bb63-4695-8ce0-6d357f5c1a9b/thepotentialfactory.com/public_html/wp-content/themes/mauer-storyteller/fonts/LeagueSpartan/stylesheet.css",
+		"/private/var/folders/0b/fv0rzgx50dd_2ykh996r97lw0000gn/T/ebd1d472-bb63-4695-8ce0-6d357f5c1a9b/thepotentialfactory.com/public_html/wp-content/themes/mauer-storyteller/functions.php",
+		"/private/var/folders/0b/fv0rzgx50dd_2ykh996r97lw0000gn/T/ebd1d472-bb63-4695-8ce0-6d357f5c1a9b/thepotentialfactory.com/public_html/wp-config.php",
+		"/Users/Boris/Sites/borissoderlind.com/trellis/group_vars/development/wordpress_sites.yml",
+		"/private/var/folders/0b/fv0rzgx50dd_2ykh996r97lw0000gn/T/18eff893-5ef1-4561-a79c-add84002d0d7/www/wp-config.php",
+		"/Users/Boris/Sites/forsure.se/site/web/app/themes/sage/lib/assets.php",
+		"/Users/Boris/Sites/forsure.se/trellis/group_vars/development/wordpress_sites.yml",
+		"/Users/Boris/Downloads/forsure.se-master/trellis/group_vars/development/wordpress_sites.yml",
+		"/Users/Boris/Sites/boris-test/trellis/group_vars/development/wordpress_sites.yml",
+		"/Users/Boris/Sites/boris-test/trellis/group_vars/development/vault.yml",
+		"/Users/Boris/Sites/forsure.se/untitled.php",
+		"/Users/Boris/Sites/dev.forsure.se/trellis/group_vars/development/wordpress_sites.yml",
+		"/Users/Boris/Sites/forsure.se/trellis/group_vars/development/vault.yml",
+		"/Users/Boris/Sites/untitled.php",
+		"/Users/Boris/Sites/composer-setup.php",
+		"/Applications/MAMP/conf/apache/original/httpd.conf",
+		"/Users/Boris/Sites/bedrock/composer.json",
+		"/private/var/folders/0b/fv0rzgx50dd_2ykh996r97lw0000gn/T/0b0b09bc-3eb4-48bc-b8d3-4a213c118f26/home/forsure/webapps/glaspilen_akesundvall/wp-content/themes/mh_elegance/style.css",
+		"/Users/Boris/Downloads/bootstrap-3.3.6/docs/examples/cover/cover.css",
+		"/Users/Boris/Downloads/bootstrap-3.3.6/docs/examples/cover/index.html",
+		"/Users/Boris/Desktop/For Sure startsida/index.html",
+		"/Users/Boris/Desktop/For Sure startsida/css/forsure-style.css",
+		"/Users/Boris/Downloads/reduxopts-shoestrap_backup_09-05-2016 (1).json",
+		"/Users/Boris/Downloads/Alpina gislen.se backup/1.9 backup/alpina-child/style.css",
+		"/Users/Boris/Downloads/Alpina gislen.se backup/alpina-child/style.css",
+		"/Users/Boris/Downloads/Alpina .com backup/alpina/assets/css/style-default.css",
+		"/Users/Boris/Downloads/Alpina .com backup/alpina/assets/css/style.css",
+		"/Users/Boris/Downloads/Alpina .com backup/alpina/assets/css/alleycat.css",
+		"/Users/Boris/Downloads/Alpina .com backup/alpina/style.css",
+		"/Users/Boris/Downloads/Alpina .com backup/alpina-child/functions.php",
+		"/Users/Boris/Downloads/reduxopts-shoestrap_backup_09-05-2016.json",
+		"/Users/Boris/Downloads/Alpina .com backup/alpina-child/style.css",
+		"/Users/Boris/Downloads/Alpina/Theme/alpina/style.css",
+		"/Users/Boris/Sites/dev.stories/wp-content/themes/exa/content-portfolio.php",
+		"/Users/Boris/Sites/dev.stories/wp-content/themes/exa/style.css",
+		"/private/var/folders/0b/fv0rzgx50dd_2ykh996r97lw0000gn/T/49100d8b-fbaa-4d52-b37f-4e2262f97f7c/.xsession",
+		"/Users/Boris/Sites/dev.stories/wp-content/themes/exa_child/style.css",
+		"/Users/Boris/Downloads/hero-email-template/hero.html",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/single-location-post.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/page-home.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/single.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/page-product.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/page-about.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/css/new_gist_file.css",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/css/style.css",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/page-contact.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/header.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/functions.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/page-password.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/css/main.css",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/page-order.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/loop.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/page-press.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/page.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/tag.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/404.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/archive.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/footer.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/author.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/category.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/page-members.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/css/reset.css",
+		"/Users/Boris/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/index.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/js/scripts.js",
+		"/Users/Boris/Sites/bettershelter.org/ansible/group_vars/staging/wordpress_sites.yml",
+		"/Users/Boris/Downloads/demo/index.html",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/sidebar.php",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/js/main.js",
+		"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme/loop-press-post.php",
+		"/Users/Boris/Sites/bettershelter.org/site/composer.json",
+		"/Users/Boris/Sites/bettershelter.org/.gitignore",
+		"/Users/Boris/Sites/bettershelter.org/ansible/.gitignore",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/type.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/header.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/reportage.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/components/inforuta.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/variables.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/single.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/content/archive-post.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/mixins.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/functions.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/content/post.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/content/template-kostnad.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/index.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/content/readmore.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/responsive.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/content/page.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/single.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/components/image.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/comments.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/components/content.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/index.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella/assets/js/theme-customizer.js",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/overlays.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/print.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/js/theme-customizer.js",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella/content/page.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/formtest/assets/js/theme-customizer.js",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/formtest/assets/js/source/novella.js",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/components/parallax.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/node_modules/grunt-contrib-less/node_modules/less/benchmark/benchmark.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/components.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/scaffolding.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source/components/quote.less",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/single-kostnad.php",
+		"/Users/Boris/Downloads/Animating-Numbers-Counting-Up-with-jQuery-Counter-Up-Plugin/index.html",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/style.css",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/template-kostnad.php",
+		"/Users/Boris/Sites/bsp-reportage/www/wp-config.php",
+		"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/css/style.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open folders>",
+			"/Users/Boris/Sites/bettershelter.org/site/web/app/",
+			"/Users/Boris/Sites/bettershelter.org/site/web/app/themes/bs-theme",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/css",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/css/less",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/css",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/js",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/lesss",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less",
+			"/Users/Boris/Sites/bsp-reportage/www/content/themes/novella-child/assets/less/source",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"head",
+			"wp_nav_menu()",
+			"<!",
+			"nav",
+			"navigation",
+			"menu",
+			"custom_post_type",
+			"3",
+			"$jumbotron-bg",
+			"yellow",
+			"red",
+			"2",
+			"carousel",
+			"nav-primary",
+			"nav",
+			"p",
+			"ec7550",
+			"EC7550",
+			"ec7550",
+			"EBGara",
+			"woff",
+			"body.home > .header-wrap",
+			"cover",
+			"css",
+			"body",
+			"float: left",
+			"visual_content",
+			"holder_*",
+			".gform_wrapper",
+			".gform_wrapper input[type=email], .gform_wrapper input[type=number], .gform_wrapper input[type=password], .gform_wrapper input[type=tel], .gform_wrapper input[type=text], .gform_wrapper input[type=url]",
+			"padding",
+			".3",
+			".31",
+			".313em",
+			"box",
+			"form",
+			".white-box",
+			"white-box",
+			".white-box",
+			"<?php if ( get",
+			".post",
+			"post",
+			"img",
+			"gallery",
+			"content-wrapper",
+			";\n",
+			"sidebar",
+			"hero-img",
+			"parallax-text-small",
+			"big",
+			"hero",
+			".btn-default .btn",
+			"btn-default btn",
+			"spacing",
+			"hero-img",
+			"h1",
+			"width",
+			"458",
+			"footer",
+			"blog-head ",
+			"blog",
+			".blog .sidebar",
+			"472px",
+			"footer",
+			".blog .post img",
+			"formtitle",
+			"form",
+			"gform_wrapper",
+			"gform_wra",
+			"formtitel",
+			":after",
+			"btn",
+			"button",
+			"after",
+			".gform_wrapper form",
+			"nav",
+			"purple",
+			"<div class=\"purple-box\">",
+			"a {",
+			"a",
+			"link",
+			"45px",
+			"text-sha",
+			".spec-number",
+			".projectImages",
+			"projectImages",
+			"cake",
+			"0",
+			"cake",
+			"h3",
+			"spacing",
+			".spacing",
+			"less",
+			"row",
+			"spacing-less",
+			"spacing",
+			"spacing-less",
+			"style=\"background-color:#FFF;\"",
+			"#css-table .col",
+			"news card",
+			"width:50%;",
+			"\n								<div class=\"col col-text\" style=\"background-color:#FFF; width:50%;",
+			"#css-table .col",
+			"style",
+			"css",
+			"Antartida-medi",
+			"Antartidamedium",
+			"Antartida Medium",
+			"antartida",
+			".ginput_container input, .ginput_container select, .ginput_container textarea",
+			"999",
+			"::-webkit-input-placeholder",
+			"instruction",
+			".ginput_container input, .ginput_container select, .ginput_container textarea",
+			".gform_wrapper ul {\n  padding-left: 0;\n  list-style: none; }\n\n.gform_wrapper li {\n  margin-bottom: 15px; }\n\n.gform_wrapper form {\n  margin-bottom: 0; \n  background-color: #FFF;\n  padding: 45px 45px 35px 45px;\n}",
+			".gform_wrapper form",
+			"75",
+			"medium",
+			".gfield_label",
+			"gfield-label",
+			"h2",
+			"field_2_4",
+			".ginput_container input, .ginput_container select, .ginput_container textarea",
+			".gform_button:hover",
+			"submit",
+			"hover",
+			"button",
+			".gform_button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"d44457",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "template-startpage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										498,
+										501
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										400,
+										403
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								994,
+								994
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 86.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "library/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										771,
+										772
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										46,
+										47
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								876,
+								876
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 378.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/SASS Build/SASS.sublime-build",
+	"project": "bones-twigeo.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"contact",
+				"page-contact.php"
+			],
+			[
+				"page-pro",
+				"page-product.php"
+			],
+			[
+				"page",
+				"page-press.php"
+			],
+			[
+				"about",
+				"bs-theme/page-about.php"
+			],
+			[
+				"fun",
+				"bs-theme/functions.php"
+			],
+			[
+				"main",
+				"bs-theme/css/main.css"
+			],
+			[
+				"func",
+				"bs-theme/functions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 908.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
