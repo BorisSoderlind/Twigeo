@@ -196,4 +196,6 @@ document.querySelector('#triangle').addEventListener('click', function() {
 
 $(".menu-item").click(function(){
     $('#bs-example-navbar-collapse-1').toggleClass('in');
+		$('#triangle').toggleClass('rotated');
+		$('.navbar-toggle').toggleClass('collapsed');
 });
