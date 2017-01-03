@@ -80,6 +80,7 @@ header.smaller #twigeo-logo, header #twigeo-logo {
 .navbar-toggle {
   background-color: #E5A619;
   margin-right: 8px;
+  padding: 5px 6px;
 }
 .navbar-toggle.collapsed {
   background-color: rgba(255,255,255,0);
@@ -433,7 +434,7 @@ letter-spacing: 0px;
 }
 
 /*TESTIMONIALS*/
-#carousel-testimonial .item img {  
+#carousel-testimonial .item img {
   width: 88px;
   height: 88px;
   margin: 0 auto;
@@ -471,7 +472,7 @@ margin-bottom: 2px;
   }
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .carousel-box {
     padding-left: 65px;
     padding-right: 65px;

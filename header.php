@@ -40,7 +40,7 @@
 
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
-		
+
 		<!-- js -->
 <!-- 		<script src="library/js/classie.js"></script>
 		<script>
@@ -66,13 +66,13 @@
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 		<?php include_once("analyticstracking.php") ?>
 		<!-- Google Tag Manager -->
-		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MD3V42"
+		<!-- <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MD3V42"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-MD3V42');</script>
+		})(window,document,'script','dataLayer','GTM-MD3V42');</script> -->
 		<!-- End Google Tag Manager -->
 
 
@@ -90,7 +90,7 @@
         <!-- <span class="icon-bar"></span> -->
         <!-- <span class="triangle"></span> -->
         <!-- <span class="triangle"></span> -->
-        <img id="triangle" width="16px" height="16px" src="<?php echo get_template_directory_uri() ?>/library/images/triangle.svg">
+        <img id="triangle" width="28px" height="28px" src="<?php echo get_template_directory_uri() ?>/library/images/arrow-thin.svg">
       </button>
 
       	<a class="navbar-brand" href="<?php echo home_url(); ?>">
