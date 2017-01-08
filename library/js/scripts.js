@@ -8,9 +8,6 @@ function updateViewportDimensions() {
 	return { width:x,height:y };
 }
 
-
-
-
 // setting the viewport width
 var viewport = updateViewportDimensions();
 

@@ -219,7 +219,7 @@
 		    {
 		    	// Since we're doing this outside the loop,
 		        // Build the apply the filters to the post's content
-		    	$content = $theSlide->post_content;
+		    	$content = $theSlide->case_summary;
 		        $content = str_replace(']]>', ']]&gt;', $content);
 		        $content = apply_filters('the_content', $content);
 		        // $image = get_the_post_thumbnail_url($theSlide->ID, 'full'); // Featured Image

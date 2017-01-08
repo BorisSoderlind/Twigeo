@@ -69,7 +69,7 @@
 						<p> </p>
 							<section class="col-md-3 col-md-offset-1 news">
 
-					    		<h4>More news</h4>
+					    		<h4>Latest</h4>
 
 				    			<ul>
 								<?php

@@ -278,4 +278,16 @@ register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'Twigeo' ),
 ) );
 
+
+// Google maps API
+function my_acf_google_map_api( $api ){
+  
+  $api['key'] = 'AIzaSyANTuaK2k80NnrEjvJv4hkbhwOc7iZIrbI';
+  
+  return $api;
+  
+}
+
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>
