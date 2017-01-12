@@ -1,3 +1,7 @@
+  document.querySelector('#triangle').addEventListener('click', function() {
+    this.classList.toggle('rotated');
+  });
+
 // jQuery functions
 jQuery(document).ready(function($) {
 
@@ -10,14 +14,6 @@ jQuery(document).ready(function($) {
   $(".menu-item").click(function() {  //use a class, since your ID gets mangled
     $(this).addClass("active");      //add the class to the clicked element
   });
-
-
-// Mobile animation
-  $(".menu-item").click(function(){
-    $('#bs-example-navbar-collapse-1').toggleClass('in');
-    $('#triangle').toggleClass('rotated');
-    $('.navbar-toggle').toggleClass('collapsed');}
-  );
 
 
 // Scroll to top function
@@ -38,6 +34,9 @@ jQuery(document).ready(function($) {
 
 // Smooth scroll for navbar links
   $('.menu-item a[href*="#"]:not([href="#"])').click(function() {
+        $('#bs-example-navbar-collapse-1').toggleClass('in');
+    $('#triangle').toggleClass('rotated');
+    $('.navbar-toggle').toggleClass('collapsed');
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -50,6 +49,13 @@ jQuery(document).ready(function($) {
     }
   });
 
+
+// Mobile animation
+  $(".menu-item").click(function(){
+    $('#bs-example-navbar-collapse-1').toggleClass('in');
+    $('#triangle').toggleClass('rotated');
+    $('.navbar-toggle').toggleClass('collapsed');}
+  );
 
 // Add swipe function to carousel
 $(".carousel").swiperight(function() {
@@ -78,7 +84,3 @@ $(".carousel").swipeleft(function() {
     });
   }
   window.onload = init();
-
-  document.querySelector('#triangle').addEventListener('click', function() {
-    this.classList.toggle('rotated');
-  });
