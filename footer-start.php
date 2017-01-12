@@ -63,17 +63,16 @@
 
 				<div class="col-md-4 col-xs-12">
 
-					<?php if( get_field('image') ): 
-
-						$logo_image = get_field('image');
+					<?php if( get_field('image', 313) ): 
+						$logo_image = get_field('image', 313);
 						echo '<img class="img-responsive" src="' . $logo_image . '" />';
-
 					endif; ?>
 
 				</div>
 
 			</div>
 
+			<br>
 			<br>
 
 			<div class="row">

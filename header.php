@@ -30,8 +30,6 @@
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
         <meta name="theme-color" content="#121212">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php // wordpress head functions ?>
@@ -43,7 +41,7 @@
 
 	</head>
 
-	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
+	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 		<?php include_once("analyticstracking.php") ?>
 		<!-- Google Tag Manager -->
 		<!-- <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MD3V42"
@@ -73,9 +71,19 @@
         <img id="triangle" width="28px" height="28px" src="<?php echo get_template_directory_uri() ?>/library/images/arrow-thin.svg">
       </button>
 
-      	<a class="navbar-brand" href="<?php echo home_url(); ?>">
-            <img id="twigeo-logo" src=" <?php echo get_template_directory_uri() . '/library/images/twigeo-logo-white.png'; ?> " />
-        </a>
+        <?php
+        if (is_page('start-page')) {
+	      	echo '<a class="navbar-brand scrolltotop" href="">';
+	        echo '<img id="twigeo-logo" src="' . get_template_directory_uri() . '/library/images/twigeo-logo-white.png" />';
+	        echo '</a>';
+        }
+        else {
+	      	echo '<a class="navbar-brand" href="' . home_url() . '">';
+	        echo '<img id="twigeo-logo" src="' . get_template_directory_uri() . '/library/images/twigeo-logo-white.png" />';
+	        echo '</a>';
+        }
+        ?>
+
     </div>
 
 

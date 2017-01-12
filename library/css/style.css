@@ -116,6 +116,7 @@ header.smaller #twigeo-logo, header #twigeo-logo {
 }
 .hero h1 {
   color: #fff;
+  opacity: 0;
 }
 .hero p {
     font-size: 36px;
@@ -344,6 +345,7 @@ letter-spacing: 0px;
   left: 0;
   right: 0;
   border: 2px solid #fff;
+  pointer-events: none
 }
 .photobanner div img {
   width: 100px;
@@ -354,7 +356,7 @@ letter-spacing: 0px;
 -------------------------------------------------- */
 .carousel {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 .carousel.cases .item {
   padding: 40px 0 0 0;
@@ -548,7 +550,7 @@ margin-bottom: 2px;
     padding-bottom: 0px;
   }
   .carousel .carousel-inner  {
-    height: 345px;
+
     overflow: hidden;
   }
   .testimonials .carousel .carousel-inner  {
@@ -583,7 +585,7 @@ margin-bottom: 2px;
     height: auto;
   }
   .cases.carousel .carousel-inner  {
-    height: 560px;
+
     overflow: hidden;
   }
   .carousel {

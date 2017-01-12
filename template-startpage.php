@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header(); ?>
-<section id="about">
+<section>
 	<!-- Main jumbotron for a primary marketing message or call to action -->
 	<div class="hero" id="hero-box">
 		<div class="container">
@@ -13,7 +13,7 @@
 
 				<div class="col-md-8">
 					<!-- <h1 style="font-weight:400;">Hello</h1> -->
-					<h1><?php the_field('hero_text'); ?></h1>
+					<h1 class="fade"><?php the_field('hero_text'); ?></h1>
 				</div>
 			</div>
 		</div>
@@ -21,7 +21,7 @@
 	</div>
 
 	<div class="container">
-
+		<div id="about"></div>
 		<div class="row white-container">
 			<div class="col-md-7">
 				<h2><?php the_field('about_text'); ?></h2>
@@ -71,9 +71,11 @@
 			</div>
 		</div>
 
-		<hr>
 
 		<div id="what_we_do"></div>
+		<hr>
+
+		
 		<div class="row empty-space"></div>
 
 
@@ -129,7 +131,7 @@
 		<!-- /PROMO -->
 <div class="container">
 
-	<div id="clients"></div>
+	<div id="work"></div>
 		<!-- LOGO SLIDER -->
 		<div class="white-container">
 
@@ -155,6 +157,10 @@
 
 				        <?php foreach( $images as $image ):
 
+				        if ( ! empty($image['alt']) ) { // if so, show content
+							echo '<a href="http://' . $image['alt'] . '" target="_blank">';
+						}
+				        	
 				        	echo '<div>';
 							echo '<img';
 							// echo $isFirst ? 'class="first-logo"' : '';
@@ -165,10 +171,17 @@
 							echo '"/>'; 
 							echo '</div>';
 
+						if ( ! empty($image['alt']) ) { // if so, show content
+							echo '</a>';
+						}
+							
+							
+
 							// $isFirst = false;
 
 
 						endforeach; ?>
+
 
 				<?php endif; ?>
 			    </div>
@@ -346,9 +359,8 @@
 
 		<!-- /TESTIMONIALS -->
 
+		<div id="team"></div>
 		<hr>
-
-
 		<!-- TEAM -->
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2" style="text-align: center; padding-top: 40px;">
@@ -358,7 +370,7 @@
 			
 		</div>
 
-		<div class="row white-container is-flex" id="team">
+		<div class="row white-container is-flex">
 			<?php
 
 			$args = array(
@@ -379,16 +391,15 @@
                 $image_size = 'large';
                 $image_array = wp_get_attachment_image_src($team_image, $image_size);
                 $image_url = $image_array[0];
-                $link = get_field('link');
-                $link_text = get_field('link_text');
+                $link = get_field('team_link', $team_member->ID);
+                $link_text = get_field('team_link_text', $team_member->ID);
                 
             	echo '<div class="col-md-3 col-sm-4 col-xs-6 team-box">';
             	echo '<img class="img-responsive team-img" src="' . $image_url . '" />';
-            	echo '<h3>' . $team_member->post_title . '</h3>';
+            	echo '<h3>' . $team_member->post_title . '</h3><p>';
                 echo $info;
-                echo '<a href="' . $link . '" target="_blank">';
-                echo $link_text . '</a>';
-                echo $link_text;
+                echo '<br><a href="' . $link . '" target="_blank">';
+                echo $link_text . '</a></p>';
                 echo '</div>';
             } 
 			?>

@@ -1,198 +1,84 @@
-/*
- * Get Viewport Dimensions
- * returns object with viewport dimensions to match css in width and height properties
- * ( source: http://andylangton.co.uk/blog/development/get-viewport-size-width-and-height-javascript )
-*/
-function updateViewportDimensions() {
-	var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;
-	return { width:x,height:y };
-}
-
-// setting the viewport width
-var viewport = updateViewportDimensions();
-
-
-/*
- * Throttle Resize-triggered Events
- * Wrap your actions in this function to throttle the frequency of firing them off, for better performance, esp. on mobile.
- * ( source: http://stackoverflow.com/questions/2854407/javascript-jquery-window-resize-how-to-fire-after-the-resize-is-completed )
-*/
-var waitForFinalEvent = (function () {
-	var timers = {};
-	return function (callback, ms, uniqueId) {
-		if (!uniqueId) { uniqueId = "Don't call this twice without a uniqueId"; }
-		if (timers[uniqueId]) { clearTimeout (timers[uniqueId]); }
-		timers[uniqueId] = setTimeout(callback, ms);
-	};
-})();
-
-// how long to wait before deciding the resize has stopped, in ms. Around 50-100 should work ok.
-var timeToWaitForLast = 100;
-
-
-/*
- * Here's an example so you can see how we're using the above function
- *
- * This is commented out so it won't work, but you can copy it and
- * remove the comments.
- *
- *
- *
- * If we want to only do it on a certain page, we can setup checks so we do it
- * as efficient as possible.
- *
- * if( typeof is_home === "undefined" ) var is_home = $('body').hasClass('home');
- *
- * This once checks to see if you're on the home page based on the body class
- * We can then use that check to perform actions on the home page only
- *
- * When the window is resized, we perform this function
- * $(window).resize(function () {
- *
- *    // if we're on the home page, we wait the set amount (in function above) then fire the function
- *    if( is_home ) { waitForFinalEvent( function() {
- *
- *	// update the viewport, in case the window size has changed
- *	viewport = updateViewportDimensions();
- *
- *      // if we're above or equal to 768 fire this off
- *      if( viewport.width >= 768 ) {
- *        console.log('On home page and window sized to 768 width or more.');
- *      } else {
- *        // otherwise, let's do this instead
- *        console.log('Not on home page, or window sized to less than 768.');
- *      }
- *
- *    }, timeToWaitForLast, "your-function-identifier-string"); }
- * });
- *
- * Pretty cool huh? You can create functions like this to conditionally load
- * content and other stuff dependent on the viewport.
- * Remember that mobile devices and javascript aren't the best of friends.
- * Keep it light and always make sure the larger viewports are doing the heavy lifting.
- *
-*/
-
-/*
- * We're going to swap out the gravatars.
- * In the functions.php file, you can see we're not loading the gravatar
- * images on mobile to save bandwidth. Once we hit an acceptable viewport
- * then we can swap out those images since they are located in a data attribute.
-*/
-function loadGravatars() {
-  // set the viewport using the function above
-  viewport = updateViewportDimensions();
-  // if the viewport is tablet or larger, we load in the gravatars
-  if (viewport.width >= 768) {
-  jQuery('.comment img[data-gravatar]').each(function(){
-    jQuery(this).attr('src',jQuery(this).attr('data-gravatar'));
-  });
-	}
-} // end function
-
-
-/*
- * Put all your regular jQuery in here.
-*/
+// jQuery functions
 jQuery(document).ready(function($) {
 
-  /*
-   * Let's fire off the gravatar function
-   * You can remove this if you don't need it
-  */
-  loadGravatars();
+// Header text animation
+  $(".fade").animate({
+    "opacity": "1"
+  }, "slow");
 
-
-}); /* end of as page load scripts */
-
-$(function() {
-
-  // $("h1").animate({
-  //   "opacity": "0.5"
-  // }, "slow");
-
-
-  // Cache selectors
-  var lastId,
-      topMenu = $("#menu-primary"),
-      topMenuHeight = topMenu.outerHeight()+15,
-      // All list items
-      menuItems = topMenu.find("a"),
-      // Anchors corresponding to menu items
-      scrollItems = menuItems.map(function(){
-        var item = $($(this).attr("href"));
-        if (item.length) { return item; }
-      });
-
-  // Bind click handler to menu items
-  // so we can get a fancy scroll animation
-  menuItems.click(function(e){
-    var href = $(this).attr("href"),
-        offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
-    $('html, body').stop().animate({
-        scrollTop: offsetTop
-    }, 500);
-    e.preventDefault();
+// Give class to navlinks when they are clicked
+  $(".menu-item").click(function() {  //use a class, since your ID gets mangled
+    $(this).addClass("active");      //add the class to the clicked element
   });
 
-  // Bind to scroll
-  $(window).scroll(function(){
-     // Get container scroll position
-     var fromTop = $(this).scrollTop()+topMenuHeight;
 
-     // Get id of current scroll item
-     var cur = scrollItems.map(function(){
-       if ($(this).offset().top < fromTop)
-         return this;
-     });
-     // Get the id of the current element
-     cur = cur[cur.length-1];
-     var id = cur && cur.length ? cur[0].id : "";
-
-     if (lastId !== id) {
-         lastId = id;
-         // Set/remove active class
-         menuItems
-           .parent().removeClass("active")
-           .end().filter("[href='#"+id+"']").parent().addClass("active");
-     }
-
-     // To make the last link active when at bottom of page
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        menuItems
-        .parent().removeClass("active")
-        .end().filter("[href='#contact']").parent().addClass("active");
-    }
-    else {
-      menuItems
-      .parent().removeClass("active")
-      .end().filter("[href='#"+id+"']").parent().addClass("active");
-    }
-
-  });
-
-});
-
-function init() {
-  window.addEventListener('scroll', function(e){
-    var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-        shrinkOn = 20,
-        header = document.querySelector("header");
-    if (distanceY > shrinkOn) {
-      header.setAttribute("class","smaller");
-    } else {
-        header.removeAttribute("class");
-    }
-  });
-}
-window.onload = init();
-
-document.querySelector('#triangle').addEventListener('click', function() {
-  this.classList.toggle('rotated');
-});
-
-$(".menu-item").click(function(){
+// Mobile animation
+  $(".menu-item").click(function(){
     $('#bs-example-navbar-collapse-1').toggleClass('in');
-		$('#triangle').toggleClass('rotated');
-		$('.navbar-toggle').toggleClass('collapsed');
+    $('#triangle').toggleClass('rotated');
+    $('.navbar-toggle').toggleClass('collapsed');}
+  );
+
+
+// Scroll to top function
+    //duration of the top scrolling animation (in ms)
+    scroll_top_duration = 400,
+    //grab the "back to top" link
+    $back_to_top = $('.scrolltotop');
+
+  //smooth scroll to top
+  $back_to_top.on('click', function(event){
+    event.preventDefault();
+    $('body,html').animate({
+      scrollTop: 0 ,
+      }, scroll_top_duration
+    );
+  });
+
+
+// Smooth scroll for navbar links
+  $('.menu-item a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+
+
+// Add swipe function to carousel
+$(".carousel").swiperight(function() {
+    $(this).carousel('prev');
 });
+$(".carousel").swipeleft(function() {  
+    $(this).carousel('next');
+});
+
+}); /* end of jQuery */
+
+
+// Javascript
+
+  // Shirnk logo
+  function init() {
+    window.addEventListener('scroll', function(e){
+      var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+          shrinkOn = 20,
+          header = document.querySelector("header");
+      if (distanceY > shrinkOn) {
+        header.setAttribute("class","smaller");
+      } else {
+          header.removeAttribute("class");
+      }
+    });
+  }
+  window.onload = init();
+
+  document.querySelector('#triangle').addEventListener('click', function() {
+    this.classList.toggle('rotated');
+  });
