@@ -153,6 +153,7 @@ img {
 .row.is-flex > [class*='col-'] {
     display: flex;
     flex-direction: column;
+    float: left
 }
 
 .empty-space {
