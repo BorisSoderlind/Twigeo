@@ -371,7 +371,7 @@
 			
 		</div>
 
-		<div class="row white-container is-flex">
+		<div class="row white-container">
 			<?php
 
 			$args = array(
