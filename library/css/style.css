@@ -550,11 +550,12 @@ margin-bottom: 2px;
     padding-bottom: 0px;
   }
   .carousel .carousel-inner  {
-
+    max-width: 1170px;
+    margin: 0 auto;
     overflow: hidden;
   }
   .testimonials .carousel .carousel-inner  {
-    height: 345px;
+
     overflow: hidden;
   }
   .carousel.testimonials .item {
@@ -563,12 +564,6 @@ margin-bottom: 2px;
   .carousel.cases .item {
     text-align: left;
     padding: 60px 0 0 0;
-  }
-  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-    margin-right: -75px;
-  }
-  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
-    margin-left: -75px;
   }
 }
 

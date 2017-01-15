@@ -47,7 +47,7 @@
 
 					        <span style="margin-top: 15px;">
 
-					        <a href="https://www.google.se/maps/place/<?php the_sub_field('office_location'); ?>" style="font-size: 13px; color: #111;" target="_blank">
+					        <a href="<?php the_sub_field('office_location'); ?>" style="font-size: 13px; color: #111;" target="_blank">
 
 					        	<img height="15px" width="15px" style="margin-top: -3px;" src="<?php echo get_template_directory_uri() ?>/library/images/ic_place_black_24dp_1x.png"> View on map
 

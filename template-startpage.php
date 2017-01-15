@@ -195,7 +195,7 @@
 	<div class="container-fluid">
 		<!-- Carousel -->
 		<div></div>
-			<div class="row t-blue carousel-box">
+			<div class="row t-blue">
 				<div id="myCarousel" class="carousel cases slide" data-ride="carousel" data-interval="false">
 
 			<!-- Indicators -->
@@ -274,10 +274,10 @@
 		<!-- /.carousel -->
 
 	</div>
-	<div class="container">
+	<div class="container-fluid">
 
 		<!-- TESTIMONIALS -->
-		<div class="row carousel-box">
+		<div class="row">
 
 	        <div id="carousel-testimonial" class="carousel testimonials slide" data-ride="carousel" data-interval="false">
 
@@ -356,9 +356,10 @@
 
 		</div>
 	</div>
-
-		<!-- /TESTIMONIALS -->
-
+	</div>
+	<!-- /TESTIMONIALS -->
+	
+	<div class="container">
 		<div id="team"></div>
 		<hr>
 		<!-- TEAM -->
